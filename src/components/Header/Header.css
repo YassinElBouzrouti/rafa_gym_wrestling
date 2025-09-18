@@ -58,6 +58,7 @@ header nav ul li a:hover{
     box-shadow: -10px 0 10px black ;
     display: none;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
     backdrop-filter: blur(10px);
 }
@@ -69,11 +70,15 @@ header nav ul li a:hover{
 }
 .menu_button{
     display: none;
+    margin-left: auto;
 }
 
 @media (max-width:768px)  {
     .hideOnMobile{
         display: none;
+    }
+    .menu_button{
+        display: block;
     }
     header{
       height: 9vh;

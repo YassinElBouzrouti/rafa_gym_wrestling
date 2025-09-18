@@ -11,7 +11,13 @@ function init() {
 
   const menuBtn = document.querySelector('.menu_button');
   const closeBtn = document.querySelector('#sidebar .close_btn');
-
+  
+  const sidebarLinks = document.querySelectorAll('#sidebar li a');
+sidebarLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    hideSidebar();
+  });
+});
   menuBtn.addEventListener('click', showSidebar);
   closeBtn.addEventListener('click', hideSidebar);
 }
