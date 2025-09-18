@@ -100,6 +100,9 @@ header nav ul li a:hover{
     #sidebar{
         width: 100%;
     }
+    .menu_button{
+        display: block;
+    }
     header{
       height: 9vh;
       width: 100%;

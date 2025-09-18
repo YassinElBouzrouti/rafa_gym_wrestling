@@ -1,8 +1,8 @@
 import './style.css'
-import Header from "./components/Header/Header";
+import Header, { showSidebar, hideSidebar } from './components/Header/Header';
 import Main from "./components/Main/Main";
 import Footer from './components/Footer/Footer';
-import Header, { showSidebar, hideSidebar } from './components/Header/Header';
+
 
 function init() {
   document.body.innerHTML += Header();
