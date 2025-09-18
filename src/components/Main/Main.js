@@ -117,7 +117,7 @@ const Main = () => `
     <h3>UBICACIÓN:</h3>
     <a href="https://www.google.es/maps/place/Rafa%E2%80%99s+Gym+Wrestling/@40.2392134,-3.759954,17z/data=!3m1!4b1!4m6!3m5!1s0xd41f587a3d3691d:0x1b088406fbed4290!8m2!3d40.2392134!4d-3.7573791!16s%2Fg%2F11l63f73sk?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Calle Londres 7, 28983 PARLA, MADRID</a>
     <h3>TELÉFONO:</h3>
-    <a href="">+34 722 40 29 95</a>
+    <a href="tel:+34722402995">+34 722 40 29 95</a>
     <h3>WHATSAPP:</h3>
     <a href="https://wa.me/34722402995?text=Hola%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">+34 722 40 29 95</a>
     <h3>INSTAGRAM:</h3>
