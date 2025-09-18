@@ -113,7 +113,7 @@ const Main = () => `
   <section id="contacto">
     <h2>CONTACTO</h2>
     <h3>UBICACIÓN:</h3>
-    <a href="">Calle Londres 7, 28983 PARLA, MADRID</a>
+    <a href="https://www.google.es/maps/place/Rafa%E2%80%99s+Gym+Wrestling/@40.2392134,-3.759954,17z/" target="_blank" rel="noopener noreferrer">Calle Londres 7, 28983 PARLA, MADRID</a>
     <h3>TELÉFONO:</h3>
     <a href="">+34 722 40 29 95</a>
     <h3>WHATSAPP:</h3>
