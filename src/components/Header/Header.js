@@ -4,7 +4,7 @@ const Header = () => `
   <img src="/rafagym_logo.svg" alt="logo del gimnasio">
   <nav>
    <ul id="sidebar">
-      <li><a href="#"><img src="/close.svg" alt="cerrar menu"></a></li>
+      <li class="close_btn"><a href="#"><img src="/close.svg" alt="cerrar menu"></a></li>
       <li><a href="#hero">CLUB</a></li>
       <li><a href="#instalaciones">INSTALACIONES</a></li>
       <li><a href="#horarios">HORARIOS</a></li>  
@@ -21,15 +21,12 @@ const Header = () => `
  </header>
 `
 
-document.querySelector('.menu_button').addEventListener('click', showSidebar);
-document.querySelector('#sidebar .close_btn').addEventListener('click', hideSidebar);
-function showSidebar() {
-   const sidebar = document.querySelector("#sidebar")
-   sidebar.style.display = "flex"
+export function showSidebar() {
+  document.querySelector('#sidebar').style.display = 'flex';
 }
-function hideSidebar() {
-   const sidebar = document.querySelector("#sidebar")
-   sidebar.style.display = "none"
+
+export function hideSidebar() {
+  document.querySelector('#sidebar').style.display = 'none';
 }
 
 
