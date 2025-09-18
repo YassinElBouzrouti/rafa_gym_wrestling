@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => `
 <footer>
- <p>© 2025 Rafa Gym Wrestling</p>
+ <p>© 2025 Rafa's Gym Wrestling</p>
 </footer>
 `;
 
