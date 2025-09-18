@@ -67,6 +67,7 @@ header nav ul li a:hover{
 }
 #sidebar a{
     width: 100%;
+    font-size: 18px;
 }
 .menu_button{
     display: none;
