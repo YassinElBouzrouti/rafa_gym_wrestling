@@ -1,7 +1,7 @@
 import './style.css'
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
-import Footer from './components/Footer/footer';
+import Footer from './components/Footer/Footer';
 
 function init() {
   document.body.innerHTML += Header();
